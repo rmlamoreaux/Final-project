@@ -490,11 +490,11 @@ server <- function(input, output, session){
   
   ## dice photos
   
-  output$die1 <- renderImage({list(src = imgvals$img_vals[1], height = "175", width = "175")  }, deleteFile = FALSE)
-  output$die2 <- renderImage({list(src = imgvals$img_vals[2], height = "175", width = "175")  }, deleteFile = FALSE)
-  output$die3 <- renderImage({list(src = imgvals$img_vals[3], height = "175", width = "175")  }, deleteFile = FALSE)
-  output$die4 <- renderImage({list(src = imgvals$img_vals[4], height = "175", width = "175")  }, deleteFile = FALSE)
-  output$die5 <- renderImage({list(src = imgvals$img_vals[5], height = "175", width = "175")  }, deleteFile = FALSE)
+  output$die1 <- renderImage({list(src = imgvals$img_vals[1], height = "150", width = "150")  }, deleteFile = FALSE)
+  output$die2 <- renderImage({list(src = imgvals$img_vals[2], height = "150", width = "150")  }, deleteFile = FALSE)
+  output$die3 <- renderImage({list(src = imgvals$img_vals[3], height = "150", width = "150")  }, deleteFile = FALSE)
+  output$die4 <- renderImage({list(src = imgvals$img_vals[4], height = "150", width = "150")  }, deleteFile = FALSE)
+  output$die5 <- renderImage({list(src = imgvals$img_vals[5], height = "150", width = "150")  }, deleteFile = FALSE)
 }
 
 
